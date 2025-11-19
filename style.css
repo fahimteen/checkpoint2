@@ -1,0 +1,105 @@
+/* =========================================================
+   General Page Styling
+   ========================================================= */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f0f5;  /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;        /* Full height to center content */
+}
+
+/* =========================================================
+   Login Container Styling
+   ========================================================= */
+.login-container {
+    background: #ffffff;      /* White background */
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;      /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0,0,0,0.15); /* Subtle shadow */
+}
+
+/* Title Styling */
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* =========================================================
+   Form Field Styling
+   ========================================================= */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label Styling */
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+/* Input Field Styling */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Input Hover + Focus Styling */
+.form-group input:focus {
+    border-color: #4a90e2; /* Blue border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, .5);
+}
+
+/* =========================================================
+   Button Styling
+   ========================================================= */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background: #4a90e2; /* Nice blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+/* Button Hover Effect */
+.btn-login:hover {
+    background: #357abd; /* Darker blue */
+}
+
+/* =========================================================
+   Links Under the Button
+   ========================================================= */
+.links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Individual link styling */
+.links a {
+    text-decoration: none;
+    color: #4a90e2;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+/* Hover effect for links */
+.links a:hover {
+    text-decoration: underline;
+}
