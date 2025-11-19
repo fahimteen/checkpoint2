@@ -1,6 +1,6 @@
 // server.js
 // ---------------------------------------------
-// Basic Express server 
+// Basic Express server js
 // ---------------------------------------------
 
 const express = require('express');          // Import express
